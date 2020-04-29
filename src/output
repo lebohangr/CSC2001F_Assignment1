@@ -11,3 +11,6 @@ LSData{StageDayTime='4_24_08', listOfAreas='6, 14, 2, 10'}
 Binary Search Tree Insertion Operation Count: 270100
 LSData{StageDayTime='4_24_08', listOfAreas='6, 14, 2, 10'}
 Binary Search Tree Search Operation Count: 144
+AVL Tree Insertion Operation Count: 32301
+LSData{StageDayTime='4_24_08', listOfAreas='6, 14, 2, 10'}
+AVL Tree Search Operation Count: 18

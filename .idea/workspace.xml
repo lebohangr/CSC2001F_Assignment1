@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1a7df4a-05a5-489e-8e35-01fc666d14f0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/output" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AVLApp.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LSBSTApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/LSBSTApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LSBSTApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LSBSTApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AVLApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AVLApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output" beforeDir="false" afterPath="$PROJECT_DIR$/src/output" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +41,14 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="Application.LSBSTApp">
+  <component name="RunManager" selected="Application.AVLApp">
+    <configuration name="AVLApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AVLApp" />
+      <module name="CSC2001_Assignments" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BinarySearchTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BinarySearchTree" />
       <module name="CSC2001_Assignments" />
@@ -72,6 +79,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AVLApp" />
         <item itemvalue="Application.LSBSTApp" />
         <item itemvalue="Application.testread" />
         <item itemvalue="Application.BinarySearchTree" />
@@ -132,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588197923888</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Completed Instrumentation">
+      <created>1588200188285</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1588200188285</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -143,7 +158,8 @@
     <MESSAGE value="Implemented Search method" />
     <MESSAGE value="Added required methods &amp; fixed search method" />
     <MESSAGE value="BSTApp fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="BSTApp fix" />
+    <MESSAGE value="Completed Instrumentation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed Instrumentation" />
   </component>
   <component name="WindowStateProjectService">
     <state x="803" y="229" width="374" height="592" key="#com.intellij.ide.util.MemberChooser" timestamp="1588148301455">
@@ -151,34 +167,34 @@
     </state>
     <state x="803" y="240" width="544" height="640" key="#com.intellij.ide.util.MemberChooser/70.27.1850.1053@70.27.1850.1053" timestamp="1583223635464" />
     <state x="803" y="229" width="374" height="592" key="#com.intellij.ide.util.MemberChooser/70.27.1850.998@70.27.1850.998" timestamp="1588148301455" />
-    <state x="549" y="49" width="912" height="917" key="CommitChangelistDialog2" timestamp="1588197923643">
+    <state x="549" y="49" width="912" height="917" key="CommitChangelistDialog2" timestamp="1588200188134">
       <screen x="70" y="27" width="1850" height="998" />
     </state>
-    <state x="549" y="49" width="912" height="917" key="CommitChangelistDialog2/70.27.1850.998@70.27.1850.998" timestamp="1588197923643" />
-    <state width="1804" height="256" key="GridCell.Tab.0.bottom" timestamp="1588194987089">
+    <state x="549" y="49" width="912" height="917" key="CommitChangelistDialog2/70.27.1850.998@70.27.1850.998" timestamp="1588200188134" />
+    <state width="1804" height="256" key="GridCell.Tab.0.bottom" timestamp="1588201499387">
       <screen x="70" y="27" width="1850" height="998" />
     </state>
-    <state width="1804" height="256" key="GridCell.Tab.0.bottom/70.27.1850.998@70.27.1850.998" timestamp="1588194987089" />
-    <state width="1804" height="256" key="GridCell.Tab.0.center" timestamp="1588194987088">
+    <state width="1804" height="256" key="GridCell.Tab.0.bottom/70.27.1850.998@70.27.1850.998" timestamp="1588201499387" />
+    <state width="1804" height="256" key="GridCell.Tab.0.center" timestamp="1588201499385">
       <screen x="70" y="27" width="1850" height="998" />
     </state>
-    <state width="1804" height="256" key="GridCell.Tab.0.center/70.27.1850.998@70.27.1850.998" timestamp="1588194987088" />
-    <state width="1804" height="256" key="GridCell.Tab.0.left" timestamp="1588194987088">
+    <state width="1804" height="256" key="GridCell.Tab.0.center/70.27.1850.998@70.27.1850.998" timestamp="1588201499385" />
+    <state width="1804" height="256" key="GridCell.Tab.0.left" timestamp="1588201499384">
       <screen x="70" y="27" width="1850" height="998" />
     </state>
-    <state width="1804" height="256" key="GridCell.Tab.0.left/70.27.1850.998@70.27.1850.998" timestamp="1588194987088" />
-    <state width="1804" height="256" key="GridCell.Tab.0.right" timestamp="1588194987089">
+    <state width="1804" height="256" key="GridCell.Tab.0.left/70.27.1850.998@70.27.1850.998" timestamp="1588201499384" />
+    <state width="1804" height="256" key="GridCell.Tab.0.right" timestamp="1588201499386">
       <screen x="70" y="27" width="1850" height="998" />
     </state>
-    <state width="1804" height="256" key="GridCell.Tab.0.right/70.27.1850.998@70.27.1850.998" timestamp="1588194987089" />
+    <state width="1804" height="256" key="GridCell.Tab.0.right/70.27.1850.998@70.27.1850.998" timestamp="1588201499386" />
     <state x="295" y="152" width="1125" height="912" key="SettingsEditor" timestamp="1583619835273">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state x="295" y="152" width="1125" height="912" key="SettingsEditor/70.27.1850.1053@70.27.1850.1053" timestamp="1583619835273" />
-    <state x="590" y="262" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1588197938624">
+    <state x="590" y="262" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1588200206966">
       <screen x="70" y="27" width="1850" height="998" />
     </state>
-    <state x="590" y="262" width="800" height="535" key="Vcs.Push.Dialog.v2/70.27.1850.998@70.27.1850.998" timestamp="1588197938624" />
+    <state x="590" y="262" width="800" height="535" key="Vcs.Push.Dialog.v2/70.27.1850.998@70.27.1850.998" timestamp="1588200206966" />
     <state x="651" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1582998649736">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>

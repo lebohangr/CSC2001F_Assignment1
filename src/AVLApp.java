@@ -1,14 +1,22 @@
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.Scanner;
+
 public class AVLApp {
     Node root;
-/***
-    public Node search(Node root, int key)
-    {
+    int opCount = 0;
+    int searchCount = 0;
+
+    public Node search(Node root, String key) {
+        searchCount++;
         // Base Cases: when root is null or key is present at root
-        if (root==null || root.key==key)
+        if (root == null || root.key.getStageDayTime().equals(key)) {
             return root;
+        }
+
 
         // val is greater than root's key
-        if (root.key > key)
+        if (root.key.getStageDayTime().compareTo(key) > 0)
             return search(root.leftchild, key);
 
         // val is less than root's key
@@ -16,36 +24,71 @@ public class AVLApp {
     }
 
 
-
-    public void start(){
-
-        root = insert(root, -10);
-        root = insert(root, 2);
-        root = insert(root, 13);
-        root = insert(root, -13);
-        root = insert(root, -15);
-        root = insert(root, 15);
-        root = insert(root, 17);
-        root = insert(root, 20);
-
-             TreeTraversals tt = new TreeTraversals();
-             tt.inOrder(root);
-            // System.out.println();
-            // tt.postOrder(root);
-            //System.out.print(search(root,15));
+    public void inOrderTraversal(Node focusNode) {
+        if (focusNode == null) {
+            return;
         }
-
-    public static void main(String[] args) {
-        AVLTree avlTree = new AVLTree( );
-        avlTree.start();
+        inOrderTraversal(focusNode.leftchild);
+        System.out.println(focusNode.toString());
+        inOrderTraversal(focusNode.rightchid);
     }
 
+    public void printAreas(String args) {
+        if (search(root, args) == null) {
+            System.out.println("Areas not found");
+        } else {
+            System.out.println(search(root, args));
+            System.out.println("AVL Tree Search Operation Count: " + searchCount);
+        }
+
+    }
+
+    public static Boolean valid(String arguments) {
+
+        String[] parts = arguments.split("_");
+        if (!parts[0].contains("1-8")) {
+            return false;
+        } else if (!parts[1].contains("1-31")) {
+            return false;
+        } else if (!parts[2].contains("00-22") || (Integer.parseInt(parts[2]) % 2 != 0)) {
+            return false;
+        }
+        return true;
+    }
+
+    public static void main(String[] args) throws FileNotFoundException {
+        AVLApp dataTree = new AVLApp();
+        dataTree.execute();
+        if (args.length != 0) {
+            if (args.length == 3) {
+                String arguments = args[0] + "_" + args[1] + "_" + args[2];
+                if (!valid(arguments)) {
+                    dataTree.printAreas(arguments);
+                } else System.out.println("Areas not found");
+            } //else System.out.println("Enter 3 valid inputs!");
+        } else dataTree.printAllAreas();
+    }
+
+    private void printAllAreas() {
+        inOrderTraversal(root);
+    }
+
+    public void execute() throws FileNotFoundException {
+        File lsSchedule = new File("Load_Shedding_All_Areas_Schedule_and_Map.clean.final.txt");
+        Scanner s1 = new Scanner(lsSchedule);
+        while (s1.hasNextLine()) {
+            String line = s1.nextLine();
+            String[] parts = line.split(" ", 2);
+            LSData temp = new LSData(parts[0], parts[1]);
+            insert(temp);
+        }
+        System.out.println("AVL Tree Insertion Operation Count: " + opCount);
+    }
 
     // A utility function to get the height of the tree
     int height(Node N) {
         if (N == null)
             return 0;
-
         return N.height;
     }
 
@@ -98,16 +141,20 @@ public class AVLApp {
         return height(N.leftchild) - height(N.rightchid);
     }
 
-    Node insert(Node node, int key) {
+    public void insert(LSData key) {
+        root = insertRec(root, key);
+    }
+
+    Node insertRec(Node node, LSData key) {
 
         // * 1.  Perform the normal BST insertion
         if (node == null)
             return (new Node(key));
-
-        if (key < node.key)
-            node.leftchild = insert(node.leftchild, key);
-        else if (key > node.key)
-            node.rightchid = insert(node.rightchid, key);
+        opCount++;
+        if (key.getStageDayTime().compareTo(node.key.getStageDayTime()) < 0)
+            node.leftchild = insertRec(node.leftchild, key);
+        else if (key.getStageDayTime().compareTo(node.key.getStageDayTime()) > 0)
+            node.rightchid = insertRec(node.rightchid, key);
         else // Duplicate keys not allowed
             return node;
 
@@ -115,34 +162,34 @@ public class AVLApp {
         node.height = 1 + max(height(node.leftchild),
                 height(node.rightchid));
 
-        /* 3. Get the balance factor of this ancestor
+        /*3. Get the balance factor of this ancestor
               node to check whether this node became
-              unbalanced *
+              unbalanced */
         int balance = getBalance(node);
 
         // If this node becomes unbalanced, then there
-        // are 4 cases Left Left Case
-        if (balance > 1 && key < node.leftchild.key)
+        // are 4 cases Left Left Case*/
+        if (balance > 1 && key.getStageDayTime().compareTo(node.leftchild.key.getStageDayTime()) < 0)
             return rightRotate(node);
 
         // Right Right Case
-        if (balance < -1 && key > node.rightchid.key)
+        if (balance < -1 && key.getStageDayTime().compareTo(node.rightchid.key.getStageDayTime()) > 0)
             return leftRotate(node);
 
         // Left Right Case
-        if (balance > 1 && key > node.leftchild.key) {
+        if (balance > 1 && key.getStageDayTime().compareTo(node.leftchild.key.getStageDayTime()) > 0) {
             node.leftchild = leftRotate(node.leftchild);
             return rightRotate(node);
         }
 
         // Right Left Case
-        if (balance < -1 && key < node.rightchid.key) {
+        if (balance < -1 && key.getStageDayTime().compareTo(node.rightchid.key.getStageDayTime()) < 0) {
             node.rightchid = rightRotate(node.rightchid);
             return leftRotate(node);
         }
 
-        /* return the (unchanged) node pointer *
+        // return the (unchanged) node pointer *
         return node;
     }
-***/
+
 }
