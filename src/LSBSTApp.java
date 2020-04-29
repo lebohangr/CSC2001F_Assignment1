@@ -28,14 +28,14 @@ public class LSBSTApp {
         /* return the (unchanged) node pointer */
         return root;
     }
-    public Node search(Node root, LSData key)
+    public Node search(Node root, String key)
     {
         // Base Cases: when root is null or key is present at root
-        if (root==null || root.key==key)
+        if (root==null || root.key.getStageDayTime()==key)
             return root;
 
         // val is greater than root's key
-        if (root.key.getStageDayTime().compareTo(key.getStageDayTime()) > 0)
+        if (root.key.getStageDayTime().compareTo(key) > 0)
             return search(root.leftchild, key);
 
         // val is less than root's key
@@ -52,7 +52,7 @@ public class LSBSTApp {
         inOrderTraversal(focusNode.rightchid);
     }
     public void printAreas (String args){
-
+        System.out.println(search(root,args));
 
     }
     public static Boolean valid(String arguments){
@@ -70,30 +70,30 @@ public class LSBSTApp {
     public static void main(String[] args) throws FileNotFoundException {
         LSBSTApp dataTree = new LSBSTApp();
         dataTree.execute();
-        if (args == null){
-            dataTree.inOrderTraversal(dataTree.root);
-        }else if (args.length==3){
-            String arguments = args[0] +"_"+ args[1] +"_"+ args[2];
-            if (valid(arguments)){
-                dataTree.printAreas(arguments);}
-        }else System.out.println("Areas not found");
-       // dataTree.inOrderTraversal(dataTree.root);
-        //System.out.println(dataTree.root.rightchid.toString());
+        if (args != null) {
+            if (args.length == 3) {
+                String arguments = args[0] + "_" + args[1] + "_" + args[2];
+                if (valid(arguments)) {
+                    dataTree.printAreas(arguments);
+                }else System.out.println("Areas not found");
+            } else dataTree.printAllAreas();
+        }
+    }
+
+    private void printAllAreas() {
+        inOrderTraversal(root);
     }
 
     public void execute() throws FileNotFoundException {
-        File lsSchedule = new File("src/Load_Shedding_All_Areas_Schedule_and_Map.clean.final.txt");
+        File lsSchedule = new File("Load_Shedding_All_Areas_Schedule_and_Map.clean.final.txt");
         Scanner s1 = new Scanner(lsSchedule);
         while (s1.hasNextLine()) {
             String line = s1.nextLine();
             String[] parts = line.split(" ",2);
             LSData temp = new LSData(parts[0],parts[1]);
-            //System.out.println(temp.toString());
             insert(temp);
         }
         System.out.println("Binary Search Tree Operation Count: "+ opCount);
-        //inOrderTraversal(root);
-        //System.out.printf("%s\n%s\n%s",array[0].toString(), array[1500].toString(),array[2975].toString());
     }
 }
 
