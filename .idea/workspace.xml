@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1a7df4a-05a5-489e-8e35-01fc666d14f0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/AVLApp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/output2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AVLApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/AVLApp.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AVLApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AVLApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output" beforeDir="false" afterPath="$PROJECT_DIR$/src/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/makefile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588200188285</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Successfully implemented the AVLTree like the boss I am.">
+      <created>1588201729058</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1588201729058</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -159,7 +168,8 @@
     <MESSAGE value="Added required methods &amp; fixed search method" />
     <MESSAGE value="BSTApp fix" />
     <MESSAGE value="Completed Instrumentation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed Instrumentation" />
+    <MESSAGE value="Successfully implemented the AVLTree like the boss I am." />
+    <option name="LAST_COMMIT_MESSAGE" value="Successfully implemented the AVLTree like the boss I am." />
   </component>
   <component name="WindowStateProjectService">
     <state x="803" y="229" width="374" height="592" key="#com.intellij.ide.util.MemberChooser" timestamp="1588148301455">
@@ -167,10 +177,10 @@
     </state>
     <state x="803" y="240" width="544" height="640" key="#com.intellij.ide.util.MemberChooser/70.27.1850.1053@70.27.1850.1053" timestamp="1583223635464" />
     <state x="803" y="229" width="374" height="592" key="#com.intellij.ide.util.MemberChooser/70.27.1850.998@70.27.1850.998" timestamp="1588148301455" />
-    <state x="549" y="49" width="912" height="917" key="CommitChangelistDialog2" timestamp="1588200188134">
+    <state x="549" y="49" width="912" height="917" key="CommitChangelistDialog2" timestamp="1588201728778">
       <screen x="70" y="27" width="1850" height="998" />
     </state>
-    <state x="549" y="49" width="912" height="917" key="CommitChangelistDialog2/70.27.1850.998@70.27.1850.998" timestamp="1588200188134" />
+    <state x="549" y="49" width="912" height="917" key="CommitChangelistDialog2/70.27.1850.998@70.27.1850.998" timestamp="1588201728778" />
     <state width="1804" height="256" key="GridCell.Tab.0.bottom" timestamp="1588201499387">
       <screen x="70" y="27" width="1850" height="998" />
     </state>
@@ -191,10 +201,10 @@
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state x="295" y="152" width="1125" height="912" key="SettingsEditor/70.27.1850.1053@70.27.1850.1053" timestamp="1583619835273" />
-    <state x="590" y="262" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1588200206966">
+    <state x="590" y="262" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1588201752718">
       <screen x="70" y="27" width="1850" height="998" />
     </state>
-    <state x="590" y="262" width="800" height="535" key="Vcs.Push.Dialog.v2/70.27.1850.998@70.27.1850.998" timestamp="1588200206966" />
+    <state x="590" y="262" width="800" height="535" key="Vcs.Push.Dialog.v2/70.27.1850.998@70.27.1850.998" timestamp="1588201752718" />
     <state x="651" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1582998649736">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>

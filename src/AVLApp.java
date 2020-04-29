@@ -83,6 +83,7 @@ public class AVLApp {
             insert(temp);
         }
         System.out.println("AVL Tree Insertion Operation Count: " + opCount);
+        System.out.println("Height of tree: " + root.height);
     }
 
     // A utility function to get the height of the tree
