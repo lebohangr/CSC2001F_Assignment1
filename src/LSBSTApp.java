@@ -31,7 +31,7 @@ public class LSBSTApp {
     public Node search(Node root, String key)
     {
         // Base Cases: when root is null or key is present at root
-        if (root==null || root.key.getStageDayTime()==key)
+        if (root==null || root.key.getStageDayTime().equals(key))
             return root;
 
         // val is greater than root's key
@@ -52,10 +52,13 @@ public class LSBSTApp {
         inOrderTraversal(focusNode.rightchid);
     }
     public void printAreas (String args){
-        System.out.println(search(root,args));
+        if (search(root,args)== null){
+            System.out.println("Areas not found");
+        }else{ System.out.println(search(root,args));}
 
     }
     public static Boolean valid(String arguments){
+
         String[] parts = arguments.split("_");
         if (!parts[0].contains("1-8")){
             return false;
@@ -70,14 +73,14 @@ public class LSBSTApp {
     public static void main(String[] args) throws FileNotFoundException {
         LSBSTApp dataTree = new LSBSTApp();
         dataTree.execute();
-        if (args != null) {
+        if (args.length != 0) {
             if (args.length == 3) {
                 String arguments = args[0] + "_" + args[1] + "_" + args[2];
-                if (valid(arguments)) {
+                if (!valid(arguments)) {
                     dataTree.printAreas(arguments);
                 }else System.out.println("Areas not found");
-            } else dataTree.printAllAreas();
-        }
+            } //else System.out.println("Enter 3 valid inputs!");
+        }else dataTree.printAllAreas();
     }
 
     private void printAllAreas() {

@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1a7df4a-05a5-489e-8e35-01fc666d14f0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LSBSTApp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LSData.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Node.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LSBSTApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/LSBSTApp.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LSBSTApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LSBSTApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -119,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588193651343</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added required methods &amp; fixed search method">
+      <created>1588195517992</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1588195517992</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -128,7 +133,8 @@
     <MESSAGE value="Changed Node class parameters and type" />
     <MESSAGE value="Fixed insert method for BST" />
     <MESSAGE value="Implemented Search method" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented Search method" />
+    <MESSAGE value="Added required methods &amp; fixed search method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added required methods &amp; fixed search method" />
   </component>
   <component name="WindowStateProjectService">
     <state x="803" y="229" width="374" height="592" key="#com.intellij.ide.util.MemberChooser" timestamp="1588148301455">
@@ -136,10 +142,10 @@
     </state>
     <state x="803" y="240" width="544" height="640" key="#com.intellij.ide.util.MemberChooser/70.27.1850.1053@70.27.1850.1053" timestamp="1583223635464" />
     <state x="803" y="229" width="374" height="592" key="#com.intellij.ide.util.MemberChooser/70.27.1850.998@70.27.1850.998" timestamp="1588148301455" />
-    <state x="549" y="49" width="912" height="917" key="CommitChangelistDialog2" timestamp="1588193651225">
+    <state x="549" y="49" width="912" height="917" key="CommitChangelistDialog2" timestamp="1588195517820">
       <screen x="70" y="27" width="1850" height="998" />
     </state>
-    <state x="549" y="49" width="912" height="917" key="CommitChangelistDialog2/70.27.1850.998@70.27.1850.998" timestamp="1588193651225" />
+    <state x="549" y="49" width="912" height="917" key="CommitChangelistDialog2/70.27.1850.998@70.27.1850.998" timestamp="1588195517820" />
     <state width="1804" height="256" key="GridCell.Tab.0.bottom" timestamp="1588194987089">
       <screen x="70" y="27" width="1850" height="998" />
     </state>
