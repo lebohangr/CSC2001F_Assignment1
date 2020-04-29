@@ -1,16 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a1a7df4a-05a5-489e-8e35-01fc666d14f0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/part_5.py" afterDir="false" />
+    <list default="true" id="a1a7df4a-05a5-489e-8e35-01fc666d14f0" name="Default Changelist" comment="Changed Node class parameters and type">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CSC2001_Assignments/LSArrayApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CSC2001_Assignments/LSArrayApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CSC2001_Assignments/Load_Shedding_All_Areas_Schedule_and_Map.clean.final.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CSC2001_Assignments/Load_Shedding_All_Areas_Schedule_and_Map.clean.final.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AVLTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AVLApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LSBSTApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LSArrayApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LSArrayApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LSBSTApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LSBSTApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LSData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LSData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Node.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/testread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/testread.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +43,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="Application.BinarySearchTree">
+  <component name="RunManager" selected="Application.LSBSTApp">
     <configuration name="BinarySearchTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BinarySearchTree" />
       <module name="CSC2001_Assignments" />
@@ -62,6 +58,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LSBSTApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LSBSTApp" />
+      <module name="CSC2001_Assignments" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="testread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="testread" />
       <module name="CSC2001_Assignments" />
@@ -71,8 +74,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BinarySearchTree" />
+        <item itemvalue="Application.LSBSTApp" />
         <item itemvalue="Application.testread" />
+        <item itemvalue="Application.BinarySearchTree" />
         <item itemvalue="Application.LSArrayApp" />
       </list>
     </recent_temporary>
@@ -95,13 +99,21 @@
       <option name="project" value="LOCAL" />
       <updated>1588144992511</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Changed Node class parameters and type">
+      <created>1588184846672</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1588184846672</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Most Accessible AVLTree Algorithm implemented." />
-    <option name="LAST_COMMIT_MESSAGE" value="Most Accessible AVLTree Algorithm implemented." />
+    <MESSAGE value="Changed Node class parameters and type" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed Node class parameters and type" />
   </component>
   <component name="WindowStateProjectService">
     <state x="803" y="229" width="374" height="592" key="#com.intellij.ide.util.MemberChooser" timestamp="1588148301455">
@@ -109,33 +121,41 @@
     </state>
     <state x="803" y="240" width="544" height="640" key="#com.intellij.ide.util.MemberChooser/70.27.1850.1053@70.27.1850.1053" timestamp="1583223635464" />
     <state x="803" y="229" width="374" height="592" key="#com.intellij.ide.util.MemberChooser/70.27.1850.998@70.27.1850.998" timestamp="1588148301455" />
-    <state x="536" y="73" width="912" height="917" key="CommitChangelistDialog2" timestamp="1588144991804">
+    <state x="549" y="49" width="912" height="917" key="CommitChangelistDialog2" timestamp="1588185286082">
       <screen x="70" y="27" width="1850" height="998" />
     </state>
-    <state x="536" y="73" width="912" height="917" key="CommitChangelistDialog2/70.27.1850.998@70.27.1850.998" timestamp="1588144991804" />
-    <state width="1804" height="256" key="GridCell.Tab.0.bottom" timestamp="1588149238029">
+    <state x="549" y="49" width="912" height="917" key="CommitChangelistDialog2/70.27.1850.998@70.27.1850.998" timestamp="1588185286082" />
+    <state width="1804" height="256" key="GridCell.Tab.0.bottom" timestamp="1588190290843">
       <screen x="70" y="27" width="1850" height="998" />
     </state>
-    <state width="1804" height="256" key="GridCell.Tab.0.bottom/70.27.1850.998@70.27.1850.998" timestamp="1588149238029" />
-    <state width="1804" height="256" key="GridCell.Tab.0.center" timestamp="1588149238025">
+    <state width="1804" height="256" key="GridCell.Tab.0.bottom/70.27.1850.998@70.27.1850.998" timestamp="1588190290843" />
+    <state width="1804" height="256" key="GridCell.Tab.0.center" timestamp="1588190290838">
       <screen x="70" y="27" width="1850" height="998" />
     </state>
-    <state width="1804" height="256" key="GridCell.Tab.0.center/70.27.1850.998@70.27.1850.998" timestamp="1588149238025" />
-    <state width="1804" height="256" key="GridCell.Tab.0.left" timestamp="1588149238024">
+    <state width="1804" height="256" key="GridCell.Tab.0.center/70.27.1850.998@70.27.1850.998" timestamp="1588190290838" />
+    <state width="1804" height="256" key="GridCell.Tab.0.left" timestamp="1588190290835">
       <screen x="70" y="27" width="1850" height="998" />
     </state>
-    <state width="1804" height="256" key="GridCell.Tab.0.left/70.27.1850.998@70.27.1850.998" timestamp="1588149238024" />
-    <state width="1804" height="256" key="GridCell.Tab.0.right" timestamp="1588149238027">
+    <state width="1804" height="256" key="GridCell.Tab.0.left/70.27.1850.998@70.27.1850.998" timestamp="1588190290835" />
+    <state width="1804" height="256" key="GridCell.Tab.0.right" timestamp="1588190290841">
       <screen x="70" y="27" width="1850" height="998" />
     </state>
-    <state width="1804" height="256" key="GridCell.Tab.0.right/70.27.1850.998@70.27.1850.998" timestamp="1588149238027" />
+    <state width="1804" height="256" key="GridCell.Tab.0.right/70.27.1850.998@70.27.1850.998" timestamp="1588190290841" />
     <state x="295" y="152" width="1125" height="912" key="SettingsEditor" timestamp="1583619835273">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state x="295" y="152" width="1125" height="912" key="SettingsEditor/70.27.1850.1053@70.27.1850.1053" timestamp="1583619835273" />
+    <state x="590" y="262" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1588185660716">
+      <screen x="70" y="27" width="1850" height="998" />
+    </state>
+    <state x="590" y="262" width="800" height="535" key="Vcs.Push.Dialog.v2/70.27.1850.998@70.27.1850.998" timestamp="1588185660716" />
     <state x="651" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1582998649736">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state x="651" y="380" key="com.intellij.ide.util.TipDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1582998649736" />
+    <state x="766" y="441" width="448" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588185443905">
+      <screen x="70" y="27" width="1850" height="998" />
+    </state>
+    <state x="766" y="441" width="448" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/70.27.1850.998@70.27.1850.998" timestamp="1588185443905" />
   </component>
 </project>

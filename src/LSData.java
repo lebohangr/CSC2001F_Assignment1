@@ -11,8 +11,6 @@ public class LSData {
         return StageDayTime;
     }
 
-
-    @Override
     public String toString() {
         return "LSData{" +
                 "StageDayTime='" + StageDayTime + '\'' +
@@ -23,10 +21,6 @@ public class LSData {
     public LSData(String stageDayTime, String listOfAreas) {
         this.StageDayTime = stageDayTime;
         this.listOfAreas = listOfAreas;
-
-    }
-
-    public LSData(){
 
     }
 }

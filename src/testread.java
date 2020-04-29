@@ -16,5 +16,7 @@ public class testread {
             cntr++;
         }
         System.out.printf("%s\n%s\n%s",array[0].toString(), array[1500].toString(),array[2975].toString());
+        System.out.println();
+        System.out.println((array[0].getStageDayTime().compareTo(array[200].getStageDayTime())));
     }
 }

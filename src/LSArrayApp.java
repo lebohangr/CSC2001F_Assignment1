@@ -1,7 +1,7 @@
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
-public class LSArrayApp extends LSData {
+public class LSArrayApp {
     public static void main(String[] args) throws FileNotFoundException {
         LSData[] data = new LSData[2976];
         File lsSchedule = new File("filename.txt");
