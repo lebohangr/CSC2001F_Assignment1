@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a1a7df4a-05a5-489e-8e35-01fc666d14f0" name="Default Changelist" comment="Changed Node class parameters and type">
+    <list default="true" id="a1a7df4a-05a5-489e-8e35-01fc666d14f0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CSC2001_Assignments/LSArrayApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CSC2001_Assignments/LSArrayApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LSArrayApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LSArrayApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LSBSTApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LSBSTApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LSData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LSData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/testread.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,14 +102,22 @@
       <option name="project" value="LOCAL" />
       <updated>1588184846672</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Fixed insert method for BST">
+      <created>1588190481730</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1588190481730</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Most Accessible AVLTree Algorithm implemented." />
     <MESSAGE value="Changed Node class parameters and type" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed Node class parameters and type" />
+    <MESSAGE value="Fixed insert method for BST" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed insert method for BST" />
   </component>
   <component name="WindowStateProjectService">
     <state x="803" y="229" width="374" height="592" key="#com.intellij.ide.util.MemberChooser" timestamp="1588148301455">
@@ -121,10 +125,10 @@
     </state>
     <state x="803" y="240" width="544" height="640" key="#com.intellij.ide.util.MemberChooser/70.27.1850.1053@70.27.1850.1053" timestamp="1583223635464" />
     <state x="803" y="229" width="374" height="592" key="#com.intellij.ide.util.MemberChooser/70.27.1850.998@70.27.1850.998" timestamp="1588148301455" />
-    <state x="549" y="49" width="912" height="917" key="CommitChangelistDialog2" timestamp="1588185286082">
+    <state x="549" y="49" width="912" height="917" key="CommitChangelistDialog2" timestamp="1588190480921">
       <screen x="70" y="27" width="1850" height="998" />
     </state>
-    <state x="549" y="49" width="912" height="917" key="CommitChangelistDialog2/70.27.1850.998@70.27.1850.998" timestamp="1588185286082" />
+    <state x="549" y="49" width="912" height="917" key="CommitChangelistDialog2/70.27.1850.998@70.27.1850.998" timestamp="1588190480921" />
     <state width="1804" height="256" key="GridCell.Tab.0.bottom" timestamp="1588190290843">
       <screen x="70" y="27" width="1850" height="998" />
     </state>

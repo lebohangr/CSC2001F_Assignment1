@@ -28,6 +28,19 @@ public class LSBSTApp {
         /* return the (unchanged) node pointer */
         return root;
     }
+    public Node search(Node root, LSData key)
+    {
+        // Base Cases: when root is null or key is present at root
+        if (root==null || root.key==key)
+            return root;
+
+        // val is greater than root's key
+        if (root.key.getStageDayTime().compareTo(key.getStageDayTime()) > 0)
+            return search(root.leftchild, key);
+
+        // val is less than root's key
+        return search(root.rightchid, key);
+    }
 
 
     public void inOrderTraversal(Node focusNode) {
@@ -38,10 +51,32 @@ public class LSBSTApp {
         System.out.println(focusNode.toString());
         inOrderTraversal(focusNode.rightchid);
     }
+    public void printAreas (String args){
 
+
+    }
+    public static Boolean valid(String arguments){
+        String[] parts = arguments.split("_");
+        if (!parts[0].contains("1-8")){
+            return false;
+        }
+            else if (!parts[1].contains("1-31")){
+                return false;
+            }else if (!parts[2].contains("00-22") || (Integer.parseInt(parts[2]) % 2 != 0)){
+                return false;
+        }
+            return true;
+    }
     public static void main(String[] args) throws FileNotFoundException {
         LSBSTApp dataTree = new LSBSTApp();
         dataTree.execute();
+        if (args == null){
+            dataTree.inOrderTraversal(dataTree.root);
+        }else if (args.length==3){
+            String arguments = args[0] +"_"+ args[1] +"_"+ args[2];
+            if (valid(arguments)){
+                dataTree.printAreas(arguments);}
+        }else System.out.println("Areas not found");
        // dataTree.inOrderTraversal(dataTree.root);
         //System.out.println(dataTree.root.rightchid.toString());
     }
@@ -53,10 +88,10 @@ public class LSBSTApp {
             String line = s1.nextLine();
             String[] parts = line.split(" ",2);
             LSData temp = new LSData(parts[0],parts[1]);
-            System.out.println(temp.toString());
+            //System.out.println(temp.toString());
             insert(temp);
         }
-        System.out.println(opCount);
+        System.out.println("Binary Search Tree Operation Count: "+ opCount);
         //inOrderTraversal(root);
         //System.out.printf("%s\n%s\n%s",array[0].toString(), array[1500].toString(),array[2975].toString());
     }
