@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class LSBSTApp {
     int opCount=0;
+    int searchCount=0;
     private Node root;
 
     public void insert(LSData key) {
@@ -29,10 +30,12 @@ public class LSBSTApp {
         return root;
     }
     public Node search(Node root, String key)
-    {
+    {   searchCount++;
         // Base Cases: when root is null or key is present at root
-        if (root==null || root.key.getStageDayTime().equals(key))
-            return root;
+        if (root==null || root.key.getStageDayTime().equals(key)){
+
+            return root;}
+
 
         // val is greater than root's key
         if (root.key.getStageDayTime().compareTo(key) > 0)
@@ -54,7 +57,10 @@ public class LSBSTApp {
     public void printAreas (String args){
         if (search(root,args)== null){
             System.out.println("Areas not found");
-        }else{ System.out.println(search(root,args));}
+        }else{
+            System.out.println(search(root,args));
+            System.out.println("Binary Search Tree Search Operation Count: " + searchCount);
+        }
 
     }
     public static Boolean valid(String arguments){
@@ -96,7 +102,7 @@ public class LSBSTApp {
             LSData temp = new LSData(parts[0],parts[1]);
             insert(temp);
         }
-        System.out.println("Binary Search Tree Operation Count: "+ opCount);
+        System.out.println("Binary Search Tree Insertion Operation Count: "+ opCount);
     }
 }
 
