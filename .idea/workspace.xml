@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a1a7df4a-05a5-489e-8e35-01fc666d14f0" name="Default Changelist" comment="Most Accessible AVLTree Algorithm implemented.">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AVLTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinarySearchTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LSData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TreeTraversals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/testread.java" afterDir="false" />
+    <list default="true" id="a1a7df4a-05a5-489e-8e35-01fc666d14f0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/part_5.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LSArrayApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LSArrayApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Load_Shedding_All_Areas_Schedule_and_Map.clean.final.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Load_Shedding_All_Areas_Schedule_and_Map.clean.final.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSC2001_Assignments/LSArrayApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CSC2001_Assignments/LSArrayApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSC2001_Assignments/Load_Shedding_All_Areas_Schedule_and_Map.clean.final.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CSC2001_Assignments/Load_Shedding_All_Areas_Schedule_and_Map.clean.final.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AVLTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AVLApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LSBSTApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LSData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LSData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/testread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/testread.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +47,14 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="Application.testread">
+  <component name="RunManager" selected="Application.BinarySearchTree">
+    <configuration name="BinarySearchTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BinarySearchTree" />
+      <module name="CSC2001_Assignments" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LSArrayApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LSArrayApp" />
       <module name="CSC2001_Assignments" />
@@ -66,6 +71,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinarySearchTree" />
         <item itemvalue="Application.testread" />
         <item itemvalue="Application.LSArrayApp" />
       </list>
@@ -82,6 +88,14 @@
       <option name="presentableId" value="Default" />
       <updated>1582975783264</updated>
     </task>
+    <task id="LOCAL-00001" summary="Most Accessible AVLTree Algorithm implemented.">
+      <created>1588144992511</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1588144992511</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -90,31 +104,31 @@
     <option name="LAST_COMMIT_MESSAGE" value="Most Accessible AVLTree Algorithm implemented." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="803" y="229" width="374" height="592" key="#com.intellij.ide.util.MemberChooser" timestamp="1588140898650">
+    <state x="803" y="229" width="374" height="592" key="#com.intellij.ide.util.MemberChooser" timestamp="1588148301455">
       <screen x="70" y="27" width="1850" height="998" />
     </state>
     <state x="803" y="240" width="544" height="640" key="#com.intellij.ide.util.MemberChooser/70.27.1850.1053@70.27.1850.1053" timestamp="1583223635464" />
-    <state x="803" y="229" width="374" height="592" key="#com.intellij.ide.util.MemberChooser/70.27.1850.998@70.27.1850.998" timestamp="1588140898650" />
-    <state x="536" y="73" width="912" height="917" key="CommitChangelistDialog2" timestamp="1588138282320">
+    <state x="803" y="229" width="374" height="592" key="#com.intellij.ide.util.MemberChooser/70.27.1850.998@70.27.1850.998" timestamp="1588148301455" />
+    <state x="536" y="73" width="912" height="917" key="CommitChangelistDialog2" timestamp="1588144991804">
       <screen x="70" y="27" width="1850" height="998" />
     </state>
-    <state x="536" y="73" width="912" height="917" key="CommitChangelistDialog2/70.27.1850.998@70.27.1850.998" timestamp="1588138282320" />
-    <state width="1804" height="256" key="GridCell.Tab.0.bottom" timestamp="1588144696068">
+    <state x="536" y="73" width="912" height="917" key="CommitChangelistDialog2/70.27.1850.998@70.27.1850.998" timestamp="1588144991804" />
+    <state width="1804" height="256" key="GridCell.Tab.0.bottom" timestamp="1588149238029">
       <screen x="70" y="27" width="1850" height="998" />
     </state>
-    <state width="1804" height="256" key="GridCell.Tab.0.bottom/70.27.1850.998@70.27.1850.998" timestamp="1588144696068" />
-    <state width="1804" height="256" key="GridCell.Tab.0.center" timestamp="1588144696067">
+    <state width="1804" height="256" key="GridCell.Tab.0.bottom/70.27.1850.998@70.27.1850.998" timestamp="1588149238029" />
+    <state width="1804" height="256" key="GridCell.Tab.0.center" timestamp="1588149238025">
       <screen x="70" y="27" width="1850" height="998" />
     </state>
-    <state width="1804" height="256" key="GridCell.Tab.0.center/70.27.1850.998@70.27.1850.998" timestamp="1588144696067" />
-    <state width="1804" height="256" key="GridCell.Tab.0.left" timestamp="1588144696066">
+    <state width="1804" height="256" key="GridCell.Tab.0.center/70.27.1850.998@70.27.1850.998" timestamp="1588149238025" />
+    <state width="1804" height="256" key="GridCell.Tab.0.left" timestamp="1588149238024">
       <screen x="70" y="27" width="1850" height="998" />
     </state>
-    <state width="1804" height="256" key="GridCell.Tab.0.left/70.27.1850.998@70.27.1850.998" timestamp="1588144696066" />
-    <state width="1804" height="256" key="GridCell.Tab.0.right" timestamp="1588144696068">
+    <state width="1804" height="256" key="GridCell.Tab.0.left/70.27.1850.998@70.27.1850.998" timestamp="1588149238024" />
+    <state width="1804" height="256" key="GridCell.Tab.0.right" timestamp="1588149238027">
       <screen x="70" y="27" width="1850" height="998" />
     </state>
-    <state width="1804" height="256" key="GridCell.Tab.0.right/70.27.1850.998@70.27.1850.998" timestamp="1588144696068" />
+    <state width="1804" height="256" key="GridCell.Tab.0.right/70.27.1850.998@70.27.1850.998" timestamp="1588149238027" />
     <state x="295" y="152" width="1125" height="912" key="SettingsEditor" timestamp="1583619835273">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>

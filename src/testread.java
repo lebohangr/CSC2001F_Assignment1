@@ -5,7 +5,7 @@ public class testread {
 
 
     public static void main(String[] args) throws FileNotFoundException {
-        File lsSchedule = new File("/home/lebo/Documents/CSC2001_Assignments/src/Load_Shedding_All_Areas_Schedule_and_Map.clean.final.txt");
+        File lsSchedule = new File("src/Load_Shedding_All_Areas_Schedule_and_Map.clean.final.txt");
         Scanner s1 = new Scanner(lsSchedule);
         LSData array[] = new LSData[2976];
         int cntr = 0;
@@ -15,6 +15,6 @@ public class testread {
             array[cntr] = new LSData(parts[0],parts[1]);
             cntr++;
         }
-        System.out.printf("%s \n %s \n %s",array[0].toString(), array[1500].toString(),array[2975].toString());
+        System.out.printf("%s\n%s\n%s",array[0].toString(), array[1500].toString(),array[2975].toString());
     }
 }

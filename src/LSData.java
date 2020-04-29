@@ -1,9 +1,14 @@
 public class LSData {
+
     private String StageDayTime;
     private String listOfAreas;
 
     public String getListOfAreas() {
         return listOfAreas;
+    }
+
+    public String getStageDayTime() {
+        return StageDayTime;
     }
 
 

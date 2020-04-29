@@ -1,12 +1,12 @@
 public class Node {
-    int key;
+
     Node leftchild;
     Node rightchid;
     int height;
     int size;
-    String listOfAreas;
+    LSData key;
 
-    public Node(int key){
+    public Node(LSData key){
         this.key = key;
         leftchild = rightchid = null;
         height = 1;
@@ -15,8 +15,8 @@ public class Node {
 
     public String toString(){
         return "LSData{" +
-                "StageDayTime='" + key + '\'' +
-                ", listOfAreas='" + listOfAreas + '\'' +
+                "StageDayTime='" + key.getStageDayTime() + '\'' +
+                ", listOfAreas='" + key.getListOfAreas() + '\'' +
                 '}';
     }
 }
