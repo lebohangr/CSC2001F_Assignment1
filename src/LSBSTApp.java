@@ -117,7 +117,6 @@ public class LSBSTApp {
             insert(temp);
         }
         System.out.println("Binary Search Tree Insertion Operation Count: "+ opCount);
-
     }
 }
 
