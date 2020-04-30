@@ -44,7 +44,20 @@ public class LSBSTApp {
         // val is less than root's key
         return search(root.rightchid, key);
     }
+    int findHeight(Node aNode) {
+        if (aNode == null) {
+            return -1;
+        }
 
+        int lefth = findHeight(aNode.leftchild);
+        int righth = findHeight(aNode.rightchid);
+
+        if (lefth > righth) {
+            return lefth + 1;
+        } else {
+            return righth + 1;
+        }
+    }
 
     public void inOrderTraversal(Node focusNode) {
         if (focusNode == null) {
@@ -79,6 +92,7 @@ public class LSBSTApp {
     public static void main(String[] args) throws FileNotFoundException {
         LSBSTApp dataTree = new LSBSTApp();
         dataTree.execute();
+        System.out.println("Height of Tree: " + dataTree.findHeight(dataTree.root));
         if (args.length != 0) {
             if (args.length == 3) {
                 String arguments = args[0] + "_" + args[1] + "_" + args[2];
@@ -103,6 +117,7 @@ public class LSBSTApp {
             insert(temp);
         }
         System.out.println("Binary Search Tree Insertion Operation Count: "+ opCount);
+
     }
 }
 

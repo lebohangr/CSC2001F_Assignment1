@@ -2,12 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1a7df4a-05a5-489e-8e35-01fc666d14f0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/output2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part5AVLBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/outputAVL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/outputBST.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/random_data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/random_file_297.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AVLApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/AVLApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AVLApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AVLApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LSBSTApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/LSBSTApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LSBSTApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LSBSTApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/part_5.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/part_5.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588201729058</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Cleaned up code">
+      <created>1588204445687</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1588204445687</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -169,7 +182,8 @@
     <MESSAGE value="BSTApp fix" />
     <MESSAGE value="Completed Instrumentation" />
     <MESSAGE value="Successfully implemented the AVLTree like the boss I am." />
-    <option name="LAST_COMMIT_MESSAGE" value="Successfully implemented the AVLTree like the boss I am." />
+    <MESSAGE value="Cleaned up code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cleaned up code" />
   </component>
   <component name="WindowStateProjectService">
     <state x="803" y="229" width="374" height="592" key="#com.intellij.ide.util.MemberChooser" timestamp="1588148301455">
@@ -177,10 +191,10 @@
     </state>
     <state x="803" y="240" width="544" height="640" key="#com.intellij.ide.util.MemberChooser/70.27.1850.1053@70.27.1850.1053" timestamp="1583223635464" />
     <state x="803" y="229" width="374" height="592" key="#com.intellij.ide.util.MemberChooser/70.27.1850.998@70.27.1850.998" timestamp="1588148301455" />
-    <state x="549" y="49" width="912" height="917" key="CommitChangelistDialog2" timestamp="1588201728778">
+    <state x="549" y="49" width="912" height="917" key="CommitChangelistDialog2" timestamp="1588204445502">
       <screen x="70" y="27" width="1850" height="998" />
     </state>
-    <state x="549" y="49" width="912" height="917" key="CommitChangelistDialog2/70.27.1850.998@70.27.1850.998" timestamp="1588201728778" />
+    <state x="549" y="49" width="912" height="917" key="CommitChangelistDialog2/70.27.1850.998@70.27.1850.998" timestamp="1588204445502" />
     <state width="1804" height="256" key="GridCell.Tab.0.bottom" timestamp="1588201499387">
       <screen x="70" y="27" width="1850" height="998" />
     </state>

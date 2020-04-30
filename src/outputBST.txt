@@ -1,4 +1,5 @@
-AVL Tree Insertion Operation Count: 32301
+Binary Search Tree Insertion Operation Count: 270100
+Height of Tree: 206
 LSData{StageDayTime='1_10_00', listOfAreas='15'}
 LSData{StageDayTime='1_10_02', listOfAreas='16'}
 LSData{StageDayTime='1_10_04', listOfAreas='1'}
@@ -2975,5 +2976,24 @@ LSData{StageDayTime='8_9_16', listOfAreas='11, 3, 7, 15, 12, 4, 8, 16'}
 LSData{StageDayTime='8_9_18', listOfAreas='12, 4, 8, 16, 13, 5, 9, 1'}
 LSData{StageDayTime='8_9_20', listOfAreas='13, 5, 9, 1, 14, 6, 10, 2'}
 LSData{StageDayTime='8_9_22', listOfAreas='14, 6, 10, 2, 15, 7, 11, 3'}
-AVL Tree Insertion Operation Count: 32301
+Binary Search Tree Insertion Operation Count: 270100
+Height of Tree: 206
+LSData{StageDayTime='4_24_08', listOfAreas='6, 14, 2, 10'}
+Binary Search Tree Search Operation Count: 144
+Binary Search Tree Insertion Operation Count: 270100
+Height of Tree: 206
+LSData{StageDayTime='4_10_08', listOfAreas='7, 15, 3, 11'}
+Binary Search Tree Search Operation Count: 136
+Binary Search Tree Insertion Operation Count: 270100
+Height of Tree: 206
+LSData{StageDayTime='5_24_06', listOfAreas='5, 13, 1, 9, 10'}
+Binary Search Tree Search Operation Count: 180
+Binary Search Tree Insertion Operation Count: 270100
+Height of Tree: 206
+Areas not found
+Binary Search Tree Insertion Operation Count: 270100
+Height of Tree: 206
+Areas not found
+Binary Search Tree Insertion Operation Count: 270100
+Height of Tree: 206
 Areas not found
